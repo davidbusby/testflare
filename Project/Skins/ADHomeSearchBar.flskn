@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="2"
+  SkinType="Component"
+  Comment="HTML5 skin"
+  Anchors="Width,Height"
+  Width="800"
+  Height="600"
+  Top="0"
+  Left="0"
+  Bottom="0"
+  Right="0"
+  Tabs="TOC,Index,Community"
+  DefaultTab="TOC"
+  UseBrowserDefaultSize="True"
+  UseDefaultBrowserSetup="True"
+  EnableResponsiveOutput="True"
+  ComponentType="SearchBar">
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Search Bar">
+        <Properties>
+          <Property
+            Name="Width">700px</Property>
+          <Property
+            Name="BorderTopLeftRadius">5px</Property>
+          <Property
+            Name="BorderTopRightRadius">5px</Property>
+          <Property
+            Name="BorderBottomRightRadius">5px</Property>
+          <Property
+            Name="BorderBottomLeftRadius">5px</Property>
+          <Property
+            Name="Height">40px</Property>
+          <Property
+            Name="BorderTop">solid 0px #999999</Property>
+          <Property
+            Name="BorderRight">solid 0px #999999</Property>
+          <Property
+            Name="BorderBottom">solid 0px #999999</Property>
+          <Property
+            Name="BorderLeft">solid 0px #999999</Property>
+        </Properties>
+      </Style>
+      <Medium
+        Name="Mobile">
+        <Style
+          Name="Search Bar">
+          <Properties>
+            <Property
+              Name="Width">90%</Property>
+          </Properties>
+        </Style>
+      </Medium>
+      <Style
+        Name="Search Filter">
+        <Properties>
+          <Property
+            Name="BorderRight">solid 1px #a9a9a9</Property>
+          <Property
+            Name="BorderLeft">solid 1px #a9a9a9</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Submit Button">
+        <Properties>
+          <Property
+            Name="BackgroundColor">#ffffff</Property>
+          <Property
+            Name="Width">50px</Property>
+          <Property
+            Name="BackgroundImage">url('Icon_Search_20x20.png')</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Input">
+        <Properties>
+          <Property
+            Name="Placeholder">Search for help articles, videos, guides...</Property>
+          <Property
+            Name="Color">#333333</Property>
+          <Property
+            Name="FontSize">16px</Property>
+        </Properties>
+      </Style>
+    </Styles>
+    <Resources>
+      <Resource
+        Name="Icon_Search_20x20.png">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</Resource>
+    </Resources>
+  </Stylesheet>
+  <Strings>
+    <Stylesheet
+      lang="en-us">
+      <Stylesheet>
+        <Styles>
+          <Style
+            Name="Search Bar">
+            <Properties>
+              <Property
+                Name="Height">50px</Property>
+              <Property
+                Name="BorderTopLeftRadius">10px</Property>
+              <Property
+                Name="BorderTopRightRadius">10px</Property>
+              <Property
+                Name="BorderBottomRightRadius">10px</Property>
+              <Property
+                Name="BorderBottomLeftRadius">10px</Property>
+              <Property
+                Name="BorderTop">solid 1px #a9a9a9</Property>
+              <Property
+                Name="BorderRight">solid 1px #a9a9a9</Property>
+              <Property
+                Name="BorderBottom">solid 1px #a9a9a9</Property>
+              <Property
+                Name="BorderLeft">solid 1px #a9a9a9</Property>
+              <Property
+                Name="Width">100%</Property>
+            </Properties>
+          </Style>
+          <Medium
+            Name="Mobile">
+            <Style
+              Name="Search Bar">
+              <Properties>
+                <Property
+                  Name="Width">100%</Property>
+              </Properties>
+            </Style>
+          </Medium>
+          <Style
+            Name="Search Filter">
+            <Properties>
+              <Property
+                Name="BorderRight">solid 1px #a9a9a9</Property>
+              <Property
+                Name="BorderLeft">solid 1px #a9a9a9</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="Search Submit Button">
+            <Properties>
+              <Property
+                Name="BackgroundColor">#ffffff</Property>
+              <Property
+                Name="Width">50px</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="Search Input">
+            <Properties>
+              <Property
+                Name="Placeholder">Search for help articles, videos, guides...</Property>
+            </Properties>
+          </Style>
+        </Styles>
+      </Stylesheet>
+    </Stylesheet>
+  </Strings>
+</CatapultSkin>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="11" MadCap:lastHeight="775" MadCap:lastWidth="516">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+        <!--Script with Google Analytics Code-->
+        <script type="text/javascript" src="../Scripts/analytics.js">
+        </script>
+    </head>
+    <body>
+        <div class="content">
+            <div id="contentBody">
+                <div class="row collapse">
+                    <div class="sideContent">
+                        <div class="clearfix">
+                            <MadCap:topicToolbarProxy />
+                        </div>
+                    </div><span id="home-link"><a class="MCBreadcrumbsLink" href="../../Topics/Home.htm">Help Center</a> &gt; </span>
+                    <MadCap:breadcrumbsProxy />
+                    <div class="ContentRowTOCLeft" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                        <div>
+                            <MadCap:menuProxy style="mc-toc-depth: 2;mc-context-sensitive: True;mc-include-parent: True;mc-include-siblings: True;mc-include-children: True;" data-mc-skin="/Project/Skins/ADLeftTOCBlue.flskn" mc-linked-toc="$topicHeadings" />
+                        </div>
+                        <div>
+                            <MadCap:bodyProxy />
+                            <div id="feedback_survey">
+                                <hr style="margin-top:3rem;" />
+                                <p class="feedback-question feedback_heading">Was this guide helpful?</p>
+                                <p class="feedback-question"><a class="feedback_button feedback-yes">Yes</a>&#160;<a class="feedback_button feedback-no">No</a></p>
+                                <div class="feedback-reason no">
+                                    <div>
+                                        <h3>Sorry to hear that. Why wasn't this article helpful?</h3>
+                                        <div class="feedback-option">
+                                            <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" />
+                                            <label for="option1">I couldn't find what I was looking for</label>
+                                        </div>
+                                        <div class="feedback-option">
+                                            <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" />
+                                            <label for="option2">Instructions were confusing or unclear</label>
+                                        </div>
+                                        <div class="feedback-option">
+                                            <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" xmlns="" />
+                                            <label for="option3" xmlns="">Instructions didn't work</label>
+                                        </div>
+                                        <div class="feedback-option">
+                                            <input type="checkbox" class="option no" id="option4" value="Other" data-analytics-label="Other" xmlns="" />
+                                            <label for="option4" xmlns="">Other</label>
+                                        </div>
+                                        <div class="feedback-reason no-thanks">
+                                            <p>Thanks for your feedback. </p>
+                                            <p>Want to tell us more? Send us an email at <script type="text/javascript">/*<![CDATA[*/var email=('ADHelpFeedback@dfsco.com');var body = "Feedback on help article: " +escape(window.location.href); var subject = "AD Help Feedback: " + document.title;document.write('<a href="mailto:' + email +'?subject=' +subject+ '&body=' +body+ '">' + 'ADHelpFeedback@dfsco.com' + '<'+'/a>');/*]]>*/</script>.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="feedback-reason yes-thanks">
+                                    <h3>Great! Thanks for your feedback.</h3>
+                                </div>
+                                <hr />
+                            </div>
+                            <!-- Script for feedback events -->
+                            <script type="text/javascript" src="../Scripts/feedback.js">
+                            </script>
+                        </div>
+                    </div>
+                    <script type="text/javascript">/*<![CDATA[*/$("#home-link").prependTo("div.MCBreadcrumbsBox_0");/*]]>*/</script>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

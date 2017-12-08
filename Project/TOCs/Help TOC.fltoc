@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="What's New?"
+    Link="/Content/Topics/Articles/What's New.htm" />
+  <TocEntry
+    Title="Articles"
+    Link="/Content/Topics/Articles/Articles.htm"></TocEntry>
+  <TocEntry
+    Title="Guides"
+    Link="/Content/Topics/Guides/Guides.htm">
+    <TocEntry
+      Title="Guide Category 1"
+      Link="/Content/Topics/Guides/Guides.htm#Guide_Category_1">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/Guides/Quick Start Guide.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Guide Category 2"
+        Link="/Content/Topics/Guides/Guides.htm#Guide_Category_2">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Topics/Guides/Quick Start Guide.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Videos"
+    Link="/Content/Topics/Videos/Video Library.htm">
+    <TocEntry
+      Title="Video Category 1"
+      Link="/Content/Topics/Videos/Video Library.htm#Video_Category_1">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/Videos/Video_New_Features.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Video Category 2"
+      Link="/Content/Topics/Videos/Video Library.htm#Video_Category_2"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="More Help">
+    <TocEntry
+      Title="ActiveDisclosure Help"
+      Link="https://app.activedisclosure.com/sites/ActiveDisclosureHelp/AD3/index.htm"
+      FrameName="_blank"
+      ReplaceMergeNode="false"></TocEntry>
+    <TocEntry
+      Title="Word Add-in Help"
+      Link="https://app.activedisclosure.com/sites/ActiveDisclosureHelp/ProdDoc/WAHelp/index.htm"
+      FrameName="_blank"
+      ReplaceMergeNode="false"></TocEntry>
+    <TocEntry
+      Title="Tag Finder Help"
+      FrameName="_blank"
+      Link="https://app.activedisclosure.com/sites/ActiveDisclosureHelp/ProdDoc/TFHelp/index.htm"
+      ReplaceMergeNode="false"></TocEntry>
+    <TocEntry
+      Title="AD Community"
+      Link="https://dfsco-community.force.com/activedisclosure/_ui/knowledge/ui/KnowledgeHome"
+      FrameName="_blank"
+      ReplaceMergeNode="false" />
+    <TocEntry
+      Title="Support"
+      FrameName="_blank"
+      Link="http://activedisclosure.dfsco.com/activedisclosure/support.aspx"
+      ReplaceMergeNode="false"></TocEntry>
+  </TocEntry>
+</CatapultToc>

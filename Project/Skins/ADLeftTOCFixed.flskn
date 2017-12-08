@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="2"
+  SkinType="Component"
+  Comment="HTML5 Menu skin"
+  ComponentType="Menu"
+  EnableResponsiveOutput="True">
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Menu">
+        <Properties>
+          <Property
+            Name="Width">100%</Property>
+          <Property
+            Name="MarginBottom">0px</Property>
+          <Property
+            Name="BorderRight">none 0px transparent</Property>
+          <Property
+            Name="BorderBottom">none 0px transparent</Property>
+          <Property
+            Name="BorderTopLeftRadius">3px</Property>
+          <Property
+            Name="BorderTopRightRadius">3px</Property>
+          <Property
+            Name="BorderBottomRightRadius">3px</Property>
+          <Property
+            Name="BorderBottomLeftRadius">3px</Property>
+          <Property
+            Name="BackgroundColor">#ffffff</Property>
+          <Property
+            Name="Color">#333333</Property>
+          <Property
+            Name="BorderTop">none 0px transparent</Property>
+          <Property
+            Name="LineHeight">1.4em</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Menu Item">
+        <Properties>
+          <Property
+            Name="BackgroundColor">transparent</Property>
+          <Property
+            Name="Color">#333333</Property>
+          <Property
+            Name="PaddingLeft">5px</Property>
+          <Property
+            Name="PaddingRight">5px</Property>
+          <Property
+            Name="MarginTop">2px</Property>
+          <Property
+            Name="MarginBottom">2px</Property>
+          <Property
+            Name="PaddingTop">5px</Property>
+          <Property
+            Name="PaddingBottom">5px</Property>
+        </Properties>
+        <Classes>
+          <StyleClass
+            Name="1st Level">
+            <Properties>
+              <Property
+                Name="PaddingBottom">5px</Property>
+              <Property
+                Name="PaddingTop">5px</Property>
+              <Property
+                Name="MarginTop">3px</Property>
+              <Property
+                Name="MarginBottom">3px</Property>
+              <Property
+                Name="LineHeight">1.2em</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="2nd Level">
+            <Properties>
+              <Property
+                Name="PaddingTop">5px</Property>
+              <Property
+                Name="PaddingBottom">5px</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="3rd Level">
+            <Properties>
+              <Property
+                Name="PaddingTop">5px</Property>
+              <Property
+                Name="PaddingBottom">5px</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="4th Level">
+            <Properties>
+              <Property
+                Name="PaddingTop">5px</Property>
+              <Property
+                Name="PaddingBottom">5px</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="Selected">
+            <Properties>
+              <Property
+                Name="Color">#333333</Property>
+              <Property
+                Name="BackgroundColor">#f0f0f0</Property>
+              <Property
+                Name="FontWeight">bold</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+      <Style
+        Name="Menu Item (hover)">
+        <Properties>
+          <Property
+            Name="Color">#333333</Property>
+          <Property
+            Name="BackgroundColor">#f0f0f0</Property>
+        </Properties>
+      </Style>
+      <Medium
+        Name="Mobile">
+        <Style
+          Name="Menu">
+          <Properties>
+            <Property
+              Name="Display">none</Property>
+          </Properties>
+        </Style>
+      </Medium>
+    </Styles>
+  </Stylesheet>
+  <WebHelpOptions
+    EnableSticky="All" />
+  <Strings />
+</CatapultSkin>

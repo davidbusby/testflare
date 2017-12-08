@@ -1,0 +1,391 @@
+﻿/*<meta conditions="Primary.Print" />*/
+
+/* styles with the "mc-hidden: hidden;" property are hidden in the Flare UI*/
+
+body
+{
+	color: #333333;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-size: 0.875rem;
+	line-height: 1.4rem;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active
+{
+	color: #0087B3;
+}
+
+h1
+{
+	font-size: 18pt;
+	font-weight: 500;
+	margin-bottom: 8px;
+	padding-bottom: 10px;
+	line-height: 1.8rem;
+	margin-top: 0px;
+	padding-top: 0px;
+	page-break-before: always;
+}
+
+h2
+{
+	font-size: 16pt;
+	font-weight: 500;
+	line-height: 1.6rem;
+	margin-bottom: 4px;
+	margin-top: 30px;
+	color: #0087B3;
+}
+
+h3
+{
+	font-size: 14pt;
+	font-weight: 500;
+	line-height: 1.4rem;
+	margin-bottom: 4px;
+	margin-top: 25px;
+}
+
+h4
+{
+	font-size: 12pt;
+	font-weight: 400;
+	margin-bottom: 4px;
+	margin-top: 20px;
+	mc-heading-level: 0;
+}
+
+h5
+{
+	font-size: 11pt;
+	font-weight: 700;
+	margin-bottom: 4px;
+	margin-top: 20px;
+	mc-heading-level: 0;
+}
+
+h1.nav_guide
+{
+	color: 20C1DF;
+	font-weight: 500;
+	font-size: 22pt;
+	line-height: 0rem;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+p.nav_guide_subtitle
+{
+	font-size: 10.5pt;
+	line-height: 0rem;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+/* Horizontal line - used in category pages */
+
+hr
+{
+	border-width: 0px 0px 1px 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #F0F0F0;
+	margin-bottom: 4px;
+	margin-top: 20px;
+}
+
+/* Images */
+
+img.LargeImages
+{
+	mc-thumbnail: popup;
+	padding: 0px;
+	mc-thumbnail-max-height: 100px;
+	border-radius: 0px;
+	border: solid 1px #999999;
+}
+
+img.Screenshot
+{
+	border: solid 1px #999999;
+}
+
+li
+{
+	orphans: 2;
+	widows: 2;
+}
+
+MadCap|xref
+{
+	mc-format: '{para}';
+	text-decoration: underline;
+	font-weight: normal;
+	color: #0087b3;
+}
+
+ol
+{
+	list-style-image: none;
+}
+
+ol ol
+{
+	list-style-type: lower-alpha;
+}
+
+ol ol ol
+{
+	list-style-type: lower-roman;
+}
+
+ol ol ul
+{
+	list-style-type: disc;
+}
+
+ol ul ul
+{
+	list-style-type: disc;
+}
+
+ol li
+{
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+p.CodeSample
+{
+	background: #F0F0F0;
+	border-radius: 3px;
+	color: #333333;
+	font-family: Consolas, "Courier New", Courier, monospace;
+	line-height: 1.4rem;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	overflow: auto;
+}
+
+p.CodeSample + p.CodeSample	/* Removes the margin between two code paragraphs in a row so that they appear to be the same note */
+{
+	margin-top: -.6rem;
+	border-radius-top: 0px;
+}
+
+p.Note
+{
+	background: #F0F0F0;
+	border-radius: 3px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	overflow: auto;
+}
+
+p.Note + p.Note	/* Removes the margin between two note paragraphs in a row so that they appear to be the same note */
+{
+	margin-top: -1rem;
+	padding-top: 10px;
+	border-radius-top: 0px;
+}
+
+p.Tip
+{
+	border: #999999 solid 1px;
+	border-radius: 3px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	overflow: auto;
+	position: relative;
+	mc-auto-number-format: 'Tip: ';
+}
+
+p.ProcedureHead	/* Introductory paragraph for procedures */
+{
+	font-weight: bold;
+	margin-top: 1rem;
+}
+
+p.Question	/* Paragraph for questions in FAQs topic */
+{
+	color: #0087B3;
+	font-weight: bold;
+	margin-top: 1.4rem !important;
+}
+
+p.Table_Header	/* Default style for text in table header rows */
+{
+	color: #ffffff;
+	font-weight: bold;
+}
+
+p.Table_Text	/* Default style for text in tables */
+{
+	
+}
+
+p.usage_guide_logo
+{
+	margin-bottom: 6pt;
+	margin-top: 30pt;
+	page-break-before: avoid;
+}
+
+p.usage_guide_title
+{
+	font-size: 28pt;
+	font-weight: 500;
+	margin-top: 72pt;
+	page-break-before: avoid;
+}
+
+p.usage_guide_subtitle
+{
+	font-size: 18pt;
+	font-weight: 500;
+	line-height: 1.6rem;
+	margin-top: 18pt;
+	page-break-before: avoid;
+}
+
+td
+{
+	margin: 8px;
+	vertical-align: top;
+}
+
+th
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+ul
+{
+	list-style-type: disc;
+}
+
+ul ul
+{
+	list-style-type: disc;
+}
+
+ul ul ul
+{
+	list-style-type: disc;
+}
+
+ul li
+{
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+/* Styles for glossary terms and definitions */
+
+div.GlossaryPageTerm
+{
+	color: #333333;
+	font-weight: bold;
+	font-size: 1rem;
+	margin-top: 1rem;
+}
+
+a.GlossaryPageTerm
+{
+	
+}
+
+a.GlossaryPageLink
+{
+	color: #333333;
+}
+
+ul.MCGlossaryProxy_0	/*Style for glossary list items - overrides topic.css */
+{
+	border-top-width: 0px;
+	padding-left: 0px;
+	list-style-type: none;
+	list-style-image: none;
+	padding-top: 0px;
+	margin-top: 10px;
+	mc-hidden: hidden;
+}
+
+div.GlossaryPageHeading_0	/*Letter heading style - toggle on or off in glossary proxy*/
+{
+	color: #0087B3;
+	font-size: 1.25rem;
+	font-weight: 700;
+	border-bottom-width: 0px;
+}
+
+MadCap|tocProxy
+{
+	font-family: Roboto;
+}
+
+p.TOC1
+{
+	font-family: Roboto;
+	color: #0087B3;
+	mc-leader-offset: -40pt;
+}
+
+p.TOC2
+{
+	font-family: Roboto;
+	color: #333333;
+	mc-leader-offset: -40pt;
+}
+
+p.TOC3
+{
+	color: #333333;
+	font-family: Roboto;
+	mc-leader-offset: -40pt;
+}
+
+p.TOC4
+{
+	color: #333333;
+	font-family: Roboto;
+	mc-leader-offset: -40pt;
+}
+
+p.TOC5
+{
+	color: #333333;
+	font-family: Roboto;
+	mc-leader-offset: -40pt;
+}
+
+h5
+{
+	mc-heading-level: 0;
+}
+
+h1.NoTOC
+{
+	mc-heading-level: 0;
+}

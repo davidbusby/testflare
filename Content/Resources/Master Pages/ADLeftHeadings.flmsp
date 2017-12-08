@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="149" MadCap:lastWidth="1134">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+        <!--Script with Google Analytics Code-->
+        <script type="text/javascript" src="../Scripts/analytics.js">
+        </script>
+    </head>
+    <body>
+        <div class="content">
+            <div id="contentBody">
+                <div class="row collapse">
+                    <div class="sideContent">
+                        <div class="clearfix">
+                            <MadCap:topicToolbarProxy />
+                        </div>
+                    </div><span id="home-link"><a class="MCBreadcrumbsLink" href="../../Topics/Home.htm">Help Center</a> &gt; </span>
+                    <MadCap:breadcrumbsProxy />
+                    <div class="ContentRowTOCLeft" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                        <div>
+                            <MadCap:menuProxy style="mc-toc-depth: 2;mc-context-sensitive: True;mc-include-parent: True;mc-include-siblings: True;mc-include-children: True;" data-mc-skin="/Project/Skins/ADLeftTOCBlue.flskn" mc-linked-toc="$topicHeadings" />
+                        </div>
+                        <div>
+                            <MadCap:bodyProxy />
+                        </div>
+                    </div>
+                    <script type="text/javascript">/*<![CDATA[*/$("#home-link").prependTo("div.MCBreadcrumbsBox_0");/*]]>*/</script>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

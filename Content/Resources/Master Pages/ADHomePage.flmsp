@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="456" MadCap:lastWidth="568">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+        <link href="../Stylesheets/StylesForADHomePage.css" rel="stylesheet" type="text/css" />
+        <!--Script with Google Analytics Code-->
+        <script type="text/javascript" src="../Scripts/analytics.js">
+        </script>
+    </head>
+    <body>
+        <div id="contentBody" class="off-canvas-main">
+            <MadCap:bodyProxy />
+            <div class="ADfooter">
+                <div class="FooterRow  outer-row">
+                    <div>
+                        <p>
+                            <img src="../Images/DfsCoLogo.png" alt="DFS Logo" />
+                        </p>
+                    </div>
+                    <div>
+                        <p class="ADfooter_column_head" style="text-align: center;">More Help</p>
+                        <p class="ADfooter_text" style="text-align: center;"><a href="/sites/ActiveDisclosureHelp/AD3/index.htm" target="_blank">ActiveDisclosure Help</a>
+                        </p>
+                        <p class="ADfooter_text" style="text-align: center;"><a href="/sites/ActiveDisclosureHelp/ProdDoc/WAHelp/index.htm" target="_blank">Word Add-in Help</a>
+                        </p>
+                        <p class="ADfooter_text" style="text-align: center;"><a href="/sites/ActiveDisclosureHelp/ProdDoc/TFHelp/index.htm" target="_blank">Tag Finder Help</a>
+                        </p>
+                    </div>
+                    <div>
+                        <p class="ADfooter_column_head">Contact AD Support
+                        </p>
+                        <p class="ADfooter_text">Phone: 888 279 2667</p>
+                        <p class="ADfooter_text">Email: <a href="mailto:adsupport@dfsco.com">adsupport@dfsco.com</a></p>
+                    </div>
+                </div>
+                <div class="FooterRow outer-row">
+                    <div>
+                        <p>
+                            <p class="ADcopyright">Copyright 2017, Donnelley Financial, LLC</p>
+                        </p>
+                    </div>
+                    <div>
+                        <p>&#160;</p>
+                    </div>
+                    <div>
+                        <p class="ADlast_update">Last updated: <MadCap:variable name="System.ShortDate" /></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

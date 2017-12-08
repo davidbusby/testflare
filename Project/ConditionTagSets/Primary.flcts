@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet>
+  <ConditionTag
+    Name="Comments"
+    BackgroundColor="#008080" />
+  <ConditionTag
+    Name="Draft"
+    BackgroundColor="#ffff00" />
+  <ConditionTag
+    Name="Hide"
+    BackgroundColor="#0000ff" />
+  <ConditionTag
+    Name="Internal_Only"
+    BackgroundColor="#000080" />
+  <ConditionTag
+    Name="Obsolete"
+    BackgroundColor="#00ffff" />
+  <ConditionTag
+    Name="Online"
+    BackgroundColor="#00ff00" />
+  <ConditionTag
+    Name="Print"
+    BackgroundColor="#ff0000" />
+</CatapultConditionTagSet>

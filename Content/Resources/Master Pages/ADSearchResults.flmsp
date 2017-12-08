@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="47" MadCap:lastWidth="758">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+    
+		<!--Script with Google Analytics Code-->
+		<script type="text/javascript" src="../Scripts/analytics.js">
+		</script>
+
+	
+	</head>
+    <body>
+        <div class="content">
+            <div id="contentBody">
+                <div class="row collapse">
+                    <MadCap:bodyProxy />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

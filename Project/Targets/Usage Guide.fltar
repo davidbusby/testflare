@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment=""
+  Type="MsWord"
+  Destinations=""
+  MasterToc="/Project/TOCs/Usage Guide.fltoc"
+  ConditionTagExpression="include[Primary.Comments or Primary.Print] exclude[Primary.Draft or Primary.Hide or Primary.Obsolete or Primary.Online] "
+  MasterStylesheet="/Content/Resources/Stylesheets/PrintStyles.css"
+  PatchHeadingLevels="true"
+  EmbedImages="true"
+  TargetLanguage="en-us"
+  MasterPageLayout="/Content/Resources/Page Layouts/AD_Usage_Guide.flpgl">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Glossaries />
+</CatapultTarget>

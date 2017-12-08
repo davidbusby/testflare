@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlossary>
+    <GlossaryEntry>
+        <Terms>
+            <Term>abstract</Term>
+        </Terms>
+        <Definition>The taxonomy element attribute used with the presentation linkbase hierarchy as a header to group items together. Abstract items cannot be used to tag numeric data. "Assets" is an example of a header line item that you would tag with an abstract element.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>ActiveDisclosure portal</Term>
+        </Terms>
+        <Definition>Microsoft SharePoint-based website used to manage ActiveDisclosure filing projects.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>ActiveDisclosure Word Add-in</Term>
+        </Terms>
+        <Definition>Microsoft Word plug-in used to add XBRL tags to content in a Word document.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>ActiveLink</Term>
+        </Terms>
+        <Definition>Add-in application for Microsoft Word that can be used to link financial data in Microsoft Excel workbooks to tables in a Word document.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>attribute</Term>
+        </Terms>
+        <Definition>One aspect of an XBRL element such as name, unit, scale, balance, data type, and abstract.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>axis</Term>
+        </Terms>
+        <Definition>An instance document contains facts; an axis differentiates facts and each axis represents a way that the facts may be classified. For example, Revenue for a period might be reported along a business unit axis, a country axis, a product axis, and so forth.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>calculation linkbase</Term>
+        </Terms>
+        <Definition>A collection of links that relates the values in a calculation to one another, and expresses them as parent-child hierarchies. All calculation relationships in a XBRL version of a financial disclosure document are stored in a single calculation linkbase. When you tag a financial table that includes calculations, you run the "Derive Calculation" command, which adds the calculation links to the calculation linkbase.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>calculation weight</Term>
+        </Terms>
+        <Definition>A required attribute in a calculation arc indicating the multiplier that is to be applied to a numeric value. Calculation relationship attribute (-1 or +1) that specifies if a stated/reported value for a child line item will have an additive contribution (multiplication by +1) or a subtractive contribution (multiplication by -1) to the value of the parent line item thus defining the arithmetic summation relationship.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>CCC</Term>
+        </Terms>
+        <Definition>See CIK Confirmation Code.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>central index key</Term>
+        </Terms>
+        <Definition>Unique 10-digit key issued by the SEC and used to identify a specific company or organization on SEC filings. Often abbreviated CIK.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>check in</Term>
+        </Terms>
+        <Definition>To update the ActiveDisclosure portal with an updated version of a document that you previously checked out. Checking in a document saves the document to the ActiveDisclosure portal.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>check out</Term>
+        </Terms>
+        <Definition>To access a document from the ActiveDisclosure portal so that you can edit it. When you check out a document, it is unavailable for edit by others.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>CIK</Term>
+        </Terms>
+        <Definition>See Central Index Key.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>CIK confirmation code</Term>
+        </Terms>
+        <Definition>EDGAR access code used to identify the filer. Often abbreviated CCC.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>cloning</Term>
+        </Terms>
+        <Definition>The act of creating a new ActiveDisclosure project by copying an existing project.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>concept</Term>
+        </Terms>
+        <Definition>The component of an XBRL taxonomy used to tag or define a fact in an instance document. The line item values in a financial statement are typically tagged with an XBRL concept.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>contributor</Term>
+        </Terms>
+        <Definition>A user role in ActiveDisclosure. A contributor can access document sections and make edits but is not able to synchronize or publish the document.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>DEI</Term>
+        </Terms>
+        <Definition>Document Entity Information. The cover page of a financial disclosure document.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>derive</Term>
+        </Terms>
+        <Definition>An ActiveDisclosure process that generates the relationships for the calculation linkbase and the presentation linkbase.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>design mode</Term>
+        </Terms>
+        <Definition>A mode in ActiveDisclosure that allows you to insert columns in a table after the table has been tagged with XBRL. The Design Mode toggle is available on the ActiveDisclosure ribbon in Microsoft Word.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>detailed note</Term>
+        </Terms>
+        <Definition>The Notes to Financial Statements portion of a financial disclosure is also referred to as the detailed notes section, and should not be confused with footnotes to a financial statement.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>dimension</Term>
+        </Terms>
+        <Definition>XBRL technical term for axis.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>directed cycle</Term>
+        </Terms>
+        <Definition>A series of references where the last object references itself. In XBRL data, a directed cycle occurs when a fact participates in a summation that includes itself. Also referred to as a circular reference.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>disclosure document</Term>
+        </Terms>
+        <Definition>A document that represents the filing document that will be submitted to the SEC.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>EDGAR</Term>
+        </Terms>
+        <Definition>Electronic Data Gathering, Analysis, and Retrieval system. System used by companies to file forms electronically with the SEC.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>EDGAR Filer Manual</Term>
+        </Terms>
+        <Definition>SEC document which provides guidelines and rules for filing documents through the EDGAR system.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>EDGAR HTML</Term>
+        </Terms>
+        <Definition>Instance document formatted in HTML 3.2 for submission through the EDGAR system. You can generate and preview EDGAR HTML output in the ActiveDisclosure portal.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>EDGAR Pro</Term>
+        </Terms>
+        <Definition>Website that can be used to view and analyze SEC filings.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>entity</Term>
+        </Terms>
+        <Definition>A company or organization that files with the SEC.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>exhibit</Term>
+        </Terms>
+        <Definition>Secondary or supplemental document submitted as part of a filing. Exhibits can contain additional or supporting information.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>extended link</Term>
+        </Terms>
+        <Definition>In an XBRL taxonomy, a set of relationships that are given a name and description and treated as a whole set. The set has a human-readable name, specifically used for sorting. For example, "148600 – Statement – Statement of Income" is the name of an extended link that begins with a number so that it can be sorted easily.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>extension concept</Term>
+        </Terms>
+        <Definition>The company-specific XBRL concepts that are included in a company's extension taxonomy.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>extension taxonomy</Term>
+        </Terms>
+        <Definition>A filing company can create an extension taxonomy to provide for company-specific data. Extension taxonomies include company-specific XBRL concepts that are used in cases in which the US-GAAP accounting taxonomy is not sufficient to describe all the data included in the XBRL instance document.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>fact</Term>
+        </Terms>
+        <Definition>A value or number in a financial disclosure document that is tagged with an XBRL concept.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>fact collision</Term>
+        </Terms>
+        <Definition>An error condition in an XBRL instance document. A fact collision occurs when a single XBRL element shares the same context but is associated with different fact values.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>filing</Term>
+        </Terms>
+        <Definition>A financial statement or other formal document submitted to the U.S. Securities and Exchange Commission (SEC).</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>footnote</Term>
+        </Terms>
+        <Definition>A note placed at the bottom of a statement or schedule that references a designated part of the schedule. Detailed footnotes to a financial statement must be tagged separately. Compare to "detailed footnote".</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>hypercube</Term>
+        </Terms>
+        <Definition>XBRL technical term for a table.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>iXBRL</Term>
+        </Terms>
+        <Definition>Inline XBRL. Version of XBRL that presents financial information in a format that is both human-readable and machine-readable. Typically, iXBRL is implemented using HTML with XBRL tags embedded in the document.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>label</Term>
+        </Terms>
+        <Definition>Human-readable name for an element; each element has a standard label that corresponds to the element name, and is unique across the taxonomy.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>level 1 tagging</Term>
+        </Terms>
+        <Definition>Level 1 tagging defines an entire narrative note with an XBRL disclosure text block.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>level 2 tagging</Term>
+        </Terms>
+        <Definition>Level 2 tagging defines each significant accounting policy within a level 1 note as an XBRL policy text block.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>level 3 tagging</Term>
+        </Terms>
+        <Definition>Level 3 tagging defines each financial table, statement, or schedule within a level 1 note block as an XBRL table text block.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>level 4 tagging</Term>
+        </Terms>
+        <Definition>In level 4 tagging, an XBRL concept is assigned to each individual numeric fact with a financial disclosure document. Level 4 tagging is applied to all primary financial statements, to tables, statements, and schedules within the notes to financial statements, as well as to the numeric facts embedded in narrative paragraphs.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>linkbase</Term>
+        </Terms>
+        <Definition>XBRL technical term for a relationships file.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>mapping</Term>
+        </Terms>
+        <Definition>Process of determining the elements that correspond to lines and columns in a financial statement and which elements must be created by extension. Also referred to as tagging.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>mapping inspector</Term>
+        </Terms>
+        <Definition>A tool on the ActiveDisclosure Mapping Project toolbar that checks the validity of the XBRL tags applied to the selected text.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>master document</Term>
+        </Terms>
+        <Definition>In sectioned ActiveDisclosure projects, the project document is split into a master document and multiple subdocuments (section documents). Changes made to section documents are copied back to the master document during synchronization.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>narrative</Term>
+        </Terms>
+        <Definition>A paragraph of text within the Notes to Financial Statements portion of a financial disclosure document. Paragraphs of text are typically tagged with level 1 or 2 tagging. Any numeric figures (monetary or percentage) within the paragraph are tagged with level 4 tagging.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>negation</Term>
+        </Terms>
+        <Definition>A label type that causes numeric values of an element to be displayed with their sign flipped.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>nil attribute</Term>
+        </Terms>
+        <Definition>An attribute that appears on all taxonomy elements, and is used on elements that, if used in an instance document, must have a non-empty value. In ActiveDisclosure the default value for nillable is "true." There is no need for any extension to define an element with nillable "false."</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>note block</Term>
+        </Terms>
+        <Definition>A portion of a disclosure document that is defined using level 1 tagging.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>online reviewer's guide</Term>
+        </Terms>
+        <Definition>Website used by reviewers to view and comment on draft versions of the master document.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>parent section</Term>
+        </Terms>
+        <Definition>A component created in ActiveDisclosure when you perform level 4 tagging. You create a parent section from the Project tab on the Mapping Project panel. The parent section defines the entity that comprises the data to be tagged.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>parenthetical</Term>
+        </Terms>
+        <Definition>Information included in parentheses (usually) in a statement or table in a financial disclosure document. Parenthetical information is used to elaborate on the fact or line item. Parentheticals are tagged with level 4 tagging in ActiveDisclosure.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>policy block</Term>
+        </Terms>
+        <Definition>A portion of a disclosure document that is defined using level 2 tagging. Each significant accounting policy in a disclosure must be defined as a policy block.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>portal</Term>
+        </Terms>
+        <Definition>See ActiveDisclosure portal.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>presentation linkbase</Term>
+        </Terms>
+        <Definition>Defines the organizational relationships (order) of elements using parent-child hierarchies; it presents the taxonomy elements to users and allows them to navigate the content.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>pro forma document</Term>
+        </Terms>
+        <Definition>A financial statement prepared on the basis of planned transactions that have not yet occurred.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>project</Term>
+        </Terms>
+        <Definition>Area of the ActiveDisclosure portal site that includes all of the information and files needed to create and file a specific financial statement.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>project document</Term>
+        </Terms>
+        <Definition>A Microsoft Word file that contains all of the material necessary for a financial report, including tables and footnotes.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>project manager</Term>
+        </Terms>
+        <Definition>A user role in ActiveDisclosure. Project managers are responsible for creating new projects.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>reference taxonomy</Term>
+            <Term>root</Term>
+        </Terms>
+        <Definition>The top level of a tree; can appear only once in that tree.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>render</Term>
+        </Terms>
+        <Definition>To process an instance document into a layout that facilitates readability and understanding of its contents.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>reporting manager</Term>
+        </Terms>
+        <Definition>A user role in ActiveDisclosure. Reporting managers are responsible for managing projects and documents, assigning tasks, generating output files, and publishing drafts.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>reporting period</Term>
+        </Terms>
+        <Definition>An instant or duration of time. In business reporting, financial numbers and other facts are reported "as of" an instant or for a period of certain duration. In ActiveDisclosure, each fact must have a reporting period assigned to it.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>review draft</Term>
+        </Terms>
+        <Definition>Formal draft version of the master document, project files, and exhibit documents. Review drafts are usually uploaded to the Online Reviewer's Guide.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>ribbon</Term>
+        </Terms>
+        <Definition>A user interface component in Microsoft Office products that lists the commands available on the selected menu. Select the ActiveDisclosure menu tab to display the ActiveDisclosure ribbon.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>scale</Term>
+        </Terms>
+        <Definition>An attribute assigned to a set of data that defines the scale, or the number of zeros to assign to the data, allowing you to omit zeros from the set of data. Examples of scale are thousands, millions, and billions. For example, the number 3014 with a scale of thousands assigned to it, represents the actual number 3,014,000.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>schedule</Term>
+        </Terms>
+        <Definition>A table of financial data that provides supporting details to a financial statement. A depreciation schedule is a type of schedule.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>SEC</Term>
+        </Terms>
+        <Definition>Securities and Exchange Commission. U.S. Federal agency responsible for regulating the securities industry and stock exchanges.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>SEC form</Term>
+        </Terms>
+        <Definition>Document containing specific financial information to be filed with the SEC. Examples include 10-Q (Quarterly report filed pursuant to sections 13 or 15(d)) and 10-K (Annual report pursuant to section 13 and 15(d)).</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>section document</Term>
+        </Terms>
+        <Definition>In sectioned projects, a subsection of a project master document. Section documents are typically assigned to specific contributors for tagging.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>SharePoint</Term>
+        </Terms>
+        <Definition>A Microsoft application on which the ActiveDisclosure portal is built.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>statement</Term>
+        </Terms>
+        <Definition>A financial statement is a formal record of the financial activities of a business or other entity. Examples include statement of financial position (balance sheet), statement of comprehensive income, and statement of cash flow.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>synchronization</Term>
+        </Terms>
+        <Definition>Process of updating the ActiveDisclosure project with changes made to project documents. Various files are generated during synchronization, including output files and reports. Synchronizing the project is performed on the Workspace page in the ActiveDisclosure portal.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>table</Term>
+        </Terms>
+        <Definition>A set of related data presented in rows and columns. Financial statements and schedules appear as tables in a financial disclosure document.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>table block</Term>
+        </Terms>
+        <Definition>A type of text block assigned to a table in level 3 tagging. The entirety of each table or schedule within a note text block must be defined as a table text block.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>tag</Term>
+        </Terms>
+        <Definition>In markup languages such as XBRL or XML, a structural marker used to identify a data element.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>tagging</Term>
+        </Terms>
+        <Definition>To apply XBRL concepts and attributes to the numeric facts in a financial disclosure document.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>taxonomy (XBRL)</Term>
+        </Terms>
+        <Definition>A collection of schemas and linkbases used in ActiveDisclosure to tag a financial disclosure document with XBRL.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>test filing</Term>
+        </Terms>
+        <Definition>Method used to validate interactive data test files with the SEC before submitting an official filing.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>text block</Term>
+        </Terms>
+        <Definition>A set of text or a table to which you apply level 1, 2, and 3 tagging. When you tag a text block, you assign a single XBRL concept to the entire block. This is in contrast to level 4 tagging, in which you apply XBRL concepts to individual facts.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>ticker symbol</Term>
+        </Terms>
+        <Definition>Set of letters and numbers used to identify a security traded on a specific market or exchange. For example, Donnelley Financial Solutions trading symbol is DFIN.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>trading symbol</Term>
+        </Terms>
+        <Definition>See Ticker Symbol.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>unit</Term>
+        </Terms>
+        <Definition>Units are XML fragments that occur as children of the root element in XBRL instances. They document the type of unit of measure for numeric items. Each unit element is only capable of documenting a single unit of measurement. Examples of units include US Dollars, Euros, and percent.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>US-GAAP</Term>
+        </Terms>
+        <Definition>United States Generally Accepted Accounting Principles</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>validation</Term>
+        </Terms>
+        <Definition>The process in ActiveDisclosure that checks to see that the XBRL tags have been properly applied to a financial disclosure document. You can validate the disclosure document from the ActiveDisclosure portal or from the Word add-in.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>workflow</Term>
+        </Terms>
+        <Definition>In SharePoint, a workflow is the automated movement of documents or items through a sequence of actions or tasks. ActiveDisclosure includes a number of built-in workflows that automate common project tasks.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>working draft</Term>
+        </Terms>
+        <Definition>Draft version of the master document and other project files, used to track the progress of your project. Typically, working drafts are generated multiple times during the project to compare versions.</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>XBRL</Term>
+        </Terms>
+        <Definition>eXtensible Business Reporting Language</Definition>
+    </GlossaryEntry>
+    <GlossaryEntry>
+        <Terms>
+            <Term>XBRL filing package</Term>
+        </Terms>
+        <Definition>Collection of files to be submitted to the SEC, including the XBRL instance document, XBRL taxonomy extension schema document, XBRL taxonomy extension linkbase documents, and any exhibit files.</Definition>
+    </GlossaryEntry>
+</CatapultGlossary>

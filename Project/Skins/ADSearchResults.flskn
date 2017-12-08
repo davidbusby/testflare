@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="2"
+  SkinType="Component"
+  Comment="HTML5 Search Results skin"
+  ComponentType="SearchResults">
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Search Heading">
+        <Properties>
+          <Property
+            Name="Format">We found {total_results} results for {query}</Property>
+          <Property
+            Name="FontWeight">normal</Property>
+          <Property
+            Name="Color">#333333</Property>
+          <Property
+            Name="FontSize">1.25em</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Results">
+        <Properties>
+          <Property
+            Name="LineHeight">1.5em</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Abstract">
+        <Properties>
+          <Property
+            Name="FontSize">1em</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Link">
+        <Properties>
+          <Property
+            Name="MarginTop">10px</Property>
+          <Property
+            Name="MarginBottom">5px</Property>
+          <Property
+            Name="TextDecoration">none</Property>
+          <Property
+            Name="Color">#0087b3</Property>
+          <Property
+            Name="FontSize">18px</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Link (active)">
+        <Properties>
+          <Property
+            Name="TextDecoration">none</Property>
+          <Property
+            Name="Color">#0087b3</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Link (focus)">
+        <Properties>
+          <Property
+            Name="TextDecoration">none</Property>
+          <Property
+            Name="Color">#0087b3</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Link (hover)">
+        <Properties>
+          <Property
+            Name="TextDecoration">none</Property>
+          <Property
+            Name="Color">#0087b3</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Link (visited)">
+        <Properties>
+          <Property
+            Name="TextDecoration">none</Property>
+          <Property
+            Name="Color">#0087b3</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Result Path">
+        <Properties>
+          <Property
+            Name="Color">#808080</Property>
+          <Property
+            Name="Display">none</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Glossary Result">
+        <Properties>
+          <Property
+            Name="BoxShadowVShadow">0px</Property>
+          <Property
+            Name="BoxShadowBlur">0px</Property>
+          <Property
+            Name="Color">#333333</Property>
+          <Property
+            Name="BackgroundColor">#f0f0f0</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Glossary Term">
+        <Properties>
+          <Property
+            Name="FontSize">1.3em</Property>
+          <Property
+            Name="Color">#333333</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Glossary Definition">
+        <Properties>
+          <Property
+            Name="FontSize">1em</Property>
+          <Property
+            Name="Color">#333333</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Pagination">
+        <Properties>
+          <Property
+            Name="LineHeight">2.5em</Property>
+          <Property
+            Name="Height">2.5em</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Pagination Item">
+        <Properties>
+          <Property
+            Name="MarginRight">5px</Property>
+          <Property
+            Name="MarginLeft">5px</Property>
+          <Property
+            Name="PaddingLeft">8px</Property>
+          <Property
+            Name="PaddingRight">8px</Property>
+          <Property
+            Name="PaddingTop">2px</Property>
+          <Property
+            Name="PaddingBottom">2px</Property>
+          <Property
+            Name="Color">#333333</Property>
+          <Property
+            Name="BorderTop">none 0px transparent</Property>
+          <Property
+            Name="BorderRight">none 0px transparent</Property>
+          <Property
+            Name="BorderBottom">none 0px transparent</Property>
+          <Property
+            Name="BorderLeft">none 0px transparent</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Pagination Item (selected)">
+        <Properties>
+          <Property
+            Name="BorderTopLeftRadius">0px</Property>
+          <Property
+            Name="BorderTopRightRadius">0px</Property>
+          <Property
+            Name="BorderBottomRightRadius">0px</Property>
+          <Property
+            Name="BorderBottomLeftRadius">0px</Property>
+          <Property
+            Name="BorderRight">none 0px transparent</Property>
+          <Property
+            Name="BorderBottom">none 0px transparent</Property>
+          <Property
+            Name="BorderLeft">none 0px transparent</Property>
+          <Property
+            Name="BorderTop">none 0px transparent</Property>
+          <Property
+            Name="FontWeight">bold</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="Search Pagination Item (hover)">
+        <Properties>
+          <Property
+            Name="BorderTop">none 0px #e2e2e6</Property>
+          <Property
+            Name="BorderRight">none 0px transparent</Property>
+          <Property
+            Name="BorderBottom">none 0px transparent</Property>
+          <Property
+            Name="BorderLeft">none 0px transparent</Property>
+          <Property
+            Name="BorderTopLeftRadius">0px</Property>
+          <Property
+            Name="BorderTopRightRadius">0px</Property>
+          <Property
+            Name="BorderBottomRightRadius">0px</Property>
+          <Property
+            Name="BorderBottomLeftRadius">0px</Property>
+        </Properties>
+      </Style>
+    </Styles>
+  </Stylesheet>
+  <Strings>
+    <Stylesheet
+      lang="en-us">
+      <Stylesheet>
+        <Styles>
+          <Style
+            Name="Search Heading">
+            <Properties>
+              <Property
+                Name="Format">We found {total_results} results for {query}</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="Search Pagination Item">
+            <Classes>
+              <StyleClass
+                Name="Next">
+                <Properties>
+                  <Property
+                    Name="Label">&gt;</Property>
+                </Properties>
+              </StyleClass>
+              <StyleClass
+                Name="Previous">
+                <Properties>
+                  <Property
+                    Name="Label">&lt;</Property>
+                </Properties>
+              </StyleClass>
+            </Classes>
+          </Style>
+        </Styles>
+      </Stylesheet>
+    </Stylesheet>
+  </Strings>
+</CatapultSkin>

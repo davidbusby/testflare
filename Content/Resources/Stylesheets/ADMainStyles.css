@@ -1,0 +1,1077 @@
+﻿/*<meta />*/
+
+/* styles with the "mc-hidden: hidden;" property are hidden in the Flare UI*/
+
+
+body
+{
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.875rem;
+	line-height: 1.4rem;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active
+{
+	color: #0087B3;
+}
+
+
+a.MCBreadcrumbsLink	/* Styles for Breadcrumbs links */
+{
+	text-decoration: underline;
+	color: #0087b3;
+}
+
+a.MCBreadcrumbsLink:visited
+{
+	color: #0087b3;
+}
+
+a.MCBreadcrumbsLink:hover
+{
+	color: #0087b3;
+}
+
+#pagination a#selected	/* Style for search results selected page number */
+{
+	color: #333333;
+}
+
+.xref:hover
+{
+	color: #0087b3;
+}
+
+/* Style for TopNAv Search bar - overrides styles.css */
+
+div.nav-search.row.outer-row
+{
+	background-color: #f0f0f0;
+	max-width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* Style for TopNav Navigation menu links - overrides styles.css */
+
+ul.navigation li > a
+{
+	line-height: 50px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+/* Style for TopNav Navigation menu items with children - overrides styles.css */
+
+ul.navigation li.has-children
+{
+	background-image: url('../Images/Icon_Down.png');
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: 0px;
+}
+
+/* Style for TopNav title bar - overrides styles.css */
+
+nav.title-bar
+{
+	padding-top: 0px;
+}
+
+.title-bar-section.middle
+{
+	height: 50px;
+}
+
+/* Style for the TopNav submenu */
+
+ul.navigation ul
+{
+	border-radius: 2px;
+	-webkit-box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+	box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+	padding: 0px;
+	mc-hidden: hidden;
+}
+
+/* Styles for Guide Cards */
+
+.card
+{
+	display: block;
+	/*box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);*/
+	-webkit-box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+	box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+	position: relative;
+	margin-bottom: 20px;
+	background: #fff;
+	max-width: 95%;
+	width: 200px;
+	transition: all .2s ease-in-out;
+}
+
+div.card_title
+{
+	margin: 0;
+	background-color: #0087B3;
+	/*background-image:linear-gradient(45deg, #0087B3 0%, #20C1DF 97%);*/
+	padding: 10px;
+}
+
+p.card_title
+{
+	font-size: 1rem;
+	font-weight: normal;
+	color: #fff;
+}
+
+p.card_content
+{
+	font-size: 0.875rem;
+	line-height: 1.4;
+}
+
+div.card_content
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.card_button:hover
+{
+	background-color: #F0F0F0;
+}
+
+a.card_button
+{
+	color: #333333;
+	text-decoration: none;
+}
+
+.card_button
+{
+	background-color: #ffffff;
+	border: none;
+	border-radius: 3px;
+	color: #333333;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 0.875rem;
+	margin: 4px 2px;
+	min-width: 88px;
+	padding: 8px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+}
+
+p.card_link
+{
+	text-align: right;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+/* Styles for TopicFeedback Buttons */
+
+.feedback-question
+{
+	text-align: center;
+}
+
+
+p.feedback_heading
+{
+	margin-top: 1.25rem;
+	font-size: 1.25rem;
+	font-weight: normal;
+	margin-bottom: 4px;
+}
+
+.feedback_button
+{
+	background-color: #0087B3;
+	border: none;
+	border-radius: 3px;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 0.875rem;
+	margin: 4px 2px;
+	min-width: 88px;
+	padding: 8px 8px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition-duration: 0.4s;
+	/* Safari */
+	transition-duration: 0.4s;
+}
+
+a.feedback_button
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.feedback_button:hover
+{
+	background-color: #006E95;
+	color: #ffffff;
+}
+
+
+.feedback-reason 
+{
+   display: none;
+} 
+
+.feedback-reason h3
+{
+	text-align: center;
+   	margin-top: 1.25rem;
+	font-size: 1rem;
+} 
+
+
+
+/* Styles for the article links */
+
+div.article_section_links
+{
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	-webkit-column-gap: 10px;
+	-moz-column-gap: 10px;
+	column-gap: 10px;
+}
+
+div.article_section_links p
+{
+	margin-top: 0;
+}
+
+/* Styles for Guide Topics */
+
+a.guide_link
+{
+	background-color: #ffffff;
+	border: solid 1px #0087B3;
+	border-radius: 3px;
+	color: #0087b3;
+	width: 90%;
+	padding: 8px 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1rem;
+	margin: 4px 2px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s;
+	/* Safari */
+	transition-duration: 0.4s;
+}
+
+a.guide_link:hover
+{
+	border: solid 1px #006E95;
+	text-decoration: none;
+	background-color: #f0f0f0;
+}
+
+/* Video Category Page Styles */
+
+p.video_thumbnail
+{
+	margin-bottom: 0px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+p.video_title
+{
+	margin-top: 0px;
+	text-align: center;
+	line-height: 1.2;
+}
+
+/* Float divs */
+
+div.ImagesFloatLeft
+{
+	clear: both;
+	float: left;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+div.ImagesFloatRight
+{
+	clear: both;
+	float: right;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+div.sideContent
+{
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 20%;
+}
+
+/* Headings */
+
+h1
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.625rem;
+	font-weight: 500;
+	line-height: 1.8rem;
+	margin-bottom: 8px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+h2
+{
+	font-size: 1.375rem;
+	font-weight: 500;
+	line-height: 1.6rem;
+	margin-bottom: 4px;
+	margin-top: 30px;
+}
+
+h3
+{
+	font-size: 1.125rem;
+	font-weight: 500;
+	line-height: 1.4rem;
+	margin-bottom: 4px;
+	margin-top: 25px;
+}
+
+h4
+{
+	font-size: 1rem;
+	font-weight: 400;
+	margin-bottom: 4px;
+	margin-top: 20px;
+}
+
+h1.nav_guide
+{
+	color: 20C1DF;
+	font-weight: 500;
+	font-size: 22pt;
+	line-height: 0rem;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+p.nav_guide_subtitle
+{
+	font-size: 10.5pt;
+	line-height: 0rem;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+
+/* Horizontal line - used in category pages */
+
+hr
+{
+	border-width: 0px 0px 1px 0px;
+	border-bottom-style: solid;
+	border-bottom-color: #F0F0F0;
+	margin-bottom: 4px;
+	margin-top: 20px;
+}
+
+/* Images */
+
+img
+{
+	border: none;
+	max-width: 100%;
+}
+
+img.LargeImages
+{
+	mc-thumbnail: popup;
+	padding: 0px;
+	mc-thumbnail-max-height: 100px;
+	border-radius: 0px;
+	border: solid 1px #999999;
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+
+.MCPopupThumbnailLink::after 
+{ 
+    content: url(../Images/expand.png);
+    margin-left: -26px;
+}
+
+
+img.Screenshot
+{
+	border: solid 1px #999999;
+}
+
+img.video_thumbnail
+{
+	max-width: 90%;
+	border: solid 1px #999999;
+}
+
+li
+{
+	orphans: 2;
+	widows: 2;
+}
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom: none;
+	mc-breadcrumbs-prefix: ' ';
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.813rem;
+}
+
+MadCap|dropDown
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+	mc-closed-image: url('../Images/DropDownClosed.png');
+	mc-open-image: url('../Images/DropDownOpen.png');
+}
+
+MadCap|dropDown.SecondLevel
+{
+	margin-left: 10px;
+	mc-closed-image: url('../Images/DropDownClosed.png');
+	mc-open-image: url('../Images/DropDownOpen.png');
+}
+
+MadCap|dropDownBody
+{
+	border-bottom: 0px;
+}
+
+MadCap|dropDownBody.Final
+{
+	border-bottom: 0px;
+}
+
+MadCap|dropDownHead
+{
+	
+}
+
+MadCap|dropDownHotspot
+{
+	color: #0087b3;
+}
+
+MadCap|dropDownHotspot:hover
+{
+	color: #0087b3;
+}
+
+MadCap|popup
+{
+	color: #0087b3;
+}
+
+MadCap|popup:focus
+{
+	color: #0087b3;
+}
+
+MadCap|popup:hover
+{
+	color: #0087b3;
+}
+
+MadCap|popupHead
+{
+	color: #0087b3;
+}
+
+MadCap|xref
+{
+	mc-format: '{para}';
+	text-decoration: underline;
+	font-weight: normal;
+	color: #0087b3;
+}
+
+MadCap|xref:hover
+{
+	color: #0087b3;
+}
+
+.MCPopupContainer	/* Overrides Topic.css */
+{
+	border: solid 1px #999999;
+	padding: 0px;
+	line-height: 0;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+
+
+ol
+{
+	list-style-image: none;
+}
+
+ol ol
+{
+	list-style-type: lower-alpha;
+}
+
+ol ol ol
+{
+	list-style-type: lower-roman;
+}
+
+ol ol ul
+{
+	list-style-type: disc;
+}
+
+ol ul ul
+{
+	list-style-type: disc;
+}
+
+
+ol li
+{
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+p.CodeSample
+{
+	background: #F0F0F0;
+	border-radius: 3px;
+	color: #333333;
+	font-family: Consolas, "Courier New", Courier, monospace;
+	line-height: 1.4rem;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	overflow: auto;
+}
+
+p.CodeSample + p.CodeSample	/* Removes the margin between two code paragraphs in a row so that they appear to be the same note */
+{
+	margin-top: -.6rem;
+	border-radius-top: 0px;
+}
+
+
+
+
+p.Note
+{
+	background: #F0F0F0;
+	border-radius: 3px;
+	padding: 0px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	overflow: auto;
+}
+
+p.Note + p.Note	/* Removes the margin between two note paragraphs in a row so that they appear to be the same note */
+{
+	margin-top: -1rem;
+	padding-top: 10px;
+	border-radius-top: 0px;
+}
+
+p.Tip
+{
+	border: #999999 solid 1px;
+	border-radius: 3px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 27px;
+	overflow: auto;
+	position:relative;
+}
+
+p.Tip::before 
+{ 
+    content: url(../Images/bulb.png);
+	position: absolute;
+    left: 8px;
+    top: 7px;
+    vertical-align: middle;
+}
+
+p.ProcedureHead	/* Introductory paragraph for procedures */
+{
+	font-weight: bold;
+	margin-top: 1rem;
+}
+
+p.Question	/* Paragraph for questions in FAQs topic */
+{
+	color: #0087B3;
+	font-weight: bold;
+	margin-top: 1.4rem !important;
+}
+
+p.Table_Header	/* Default style for text in table header rows */
+{
+	color: #ffffff;
+	font-weight: bold;
+}
+
+p.Table_Text	/* Default style for text in tables */
+{
+	
+}
+
+
+td
+{
+	margin: 8px;
+	vertical-align: top;
+}
+
+th
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+ul
+{
+	list-style-type: disc;
+}
+
+ul ul
+{
+	list-style-type: disc;
+}
+
+ul ul ul
+{
+	list-style-type: disc;
+}
+
+ul li
+{
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+html.templateTopic div.sideContent
+{
+	display: none;
+}
+
+
+div.ContentRowTOCLeft	/*This is a custom responsive layout row style (div class) in your stylesheet. */
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.ContentRowTOCLeft::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.ContentRowTOCLeft::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.ContentRowTOCLeft > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.ContentRowTOCLeft > div:nth-child(1)
+{
+	width: 25%;
+	margin-left: 0%;
+	min-height: 200px;
+}
+
+div.ContentRowTOCLeft > div:nth-child(2)
+{
+	width: 75%;
+	margin-left: 0%;
+	padding-left: 40px;
+}
+
+/* Styles for glossary terms and definitions */
+
+div.GlossaryPageTerm
+{
+	color: #333333;
+	font-weight: bold;
+	font-size: 1rem;
+	margin-top: 1rem;
+}
+
+a.GlossaryPageTerm
+{
+	
+}
+
+a.GlossaryPageLink
+{
+	color: #333333;
+}
+
+ul.MCGlossaryProxy_0  /*Style for glossary list items - overrides topic.css */
+{
+	border-top-width: 0px;
+	padding-left: 0px;
+	list-style-type: none;
+	list-style-image: none;
+	padding-top: 0px;
+	margin-top: 10px;
+	mc-hidden: hidden;
+}
+
+
+
+div.GlossaryPageHeading_0  /*Letter heading style - toggle on or off in glossary proxy*/
+{
+	color: #0087B3;
+	font-size: 1.25rem;
+	font-weight: 700;
+	border-bottom-width: 0px;
+}
+
+
+div.VideoLibraryRow	/*Responsive layout row for the Video Library page*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.VideoLibraryRow::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.VideoLibraryRow::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.VideoLibraryRow > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.VideoLibraryRow > div:nth-child(1)
+{
+	width: 33.333%;
+	margin-left: 0%;
+	overflow: hidden;
+}
+
+div.VideoLibraryRow > div:nth-child(2)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.VideoLibraryRow > div:nth-child(3)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.GuideCategoryRow	/*Responsive layout row for the guides page*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.GuideCategoryRow::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.GuideCategoryRow::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.GuideCategoryRow > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.GuideCategoryRow > div:nth-child(1)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.GuideCategoryRow > div:nth-child(2)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.GuideCategoryRow > div:nth-child(3)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+@media tablet
+{
+	.title-bar-section.middle	/* Overrides Tablet.css */
+	{
+		height: 50px;
+	}
+
+	.title-bar-section a.logo	/* Overrides Tablet.css */
+	{
+		height: 50px;
+	}
+
+	nav.title-bar .menu-icon	/* Overrides Tablet.css */
+	{
+		margin-top: -19px;
+	}
+
+	div.ContentRowTOCLeft > div:nth-child(1)
+	{
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	div.ContentRowTOCLeft > div:nth-child(2)
+	{
+		width: 75%;
+		margin-left: 0%;
+	}
+
+	div.VideoLibraryRow > div:nth-child(1)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.VideoLibraryRow > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.VideoLibraryRow > div:nth-child(3)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.GuideCategoryRow > div:nth-child(1)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.GuideCategoryRow > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.GuideCategoryRow > div:nth-child(3)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+}
+
+@media mobile
+{
+
+	div.ContentRowTOCLeft > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+		display: none;
+	}
+
+	div.ContentRowTOCLeft > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+		padding-left: 0px;
+		margin-top: 0px;
+	}
+
+	div.article_section_links
+	{
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;
+		-webkit-column-gap: 0px;
+		-moz-column-gap: 0px;
+		column-gap: 0px;
+	}
+
+	div.VideoLibraryRow > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.VideoLibraryRow > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.VideoLibraryRow > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.GuideCategoryRow > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.GuideCategoryRow > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.GuideCategoryRow > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	iframe.object_1 	/* Resizes youtube videos for mobile */ 
+	{
+		display: inline-block;
+		width: 426px;
+		height: 240px;
+	}
+	
+	img.video_thumbnail
+	{
+		max-width: 200px;
+	}
+
+	img.Screenshot
+	{
+		max-width: 90%;
+	}
+
+	p.video_thumbnail
+	{
+		text-align: left;
+	}
+
+	p.video_title
+	{
+		text-align: left;
+	}
+
+}
+
+/* Styles for printing from help only */
+
+@media print 
+{
+
+	nav.tab-bar, div.sideContent, div.MCBreadcrumbsBox_0, div.feedback_survey 
+	{
+		display: none;
+	}
+	
+
+	div.ContentRowTOCLeft > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+		display: none;
+	}
+
+	div.ContentRowTOCLeft > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-top: 0px;
+	}
+
+	.off-canvas-content
+		{
+		background-color: #ffffff; 
+	}
+	
+	
+	img.LargeImages
+	{
+		max-height: auto;
+		max-width: 600px
+	}	
+	
+}

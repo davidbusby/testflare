@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
+  MoveOutputContentToRoot="false"
+  SkinComponents=""
+  EnableResponsiveOutput="true"
+  ResultsPerPage="5"
+  Skin="/Project/Skins/AD Top Navigation.flskn"
+  ConditionTagExpression="exclude[Primary.Comments or Primary.Draft or Primary.Hide or Primary.Internal_Only or Primary.Obsolete] "
+  DefaultUrl="/Content/Topics/Home.htm"
+  SearchEngine="MadCapSearch"
+  MasterStylesheet="/Content/Resources/Stylesheets/ADMainStyles.css"
+  GetLatestBeforeCompile="false"
+  OutputFile="index.htm"
+  MasterPage="/Content/Resources/Master Pages/ADArticle.flmsp"
+  TabletBreakpoint="1000">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+</CatapultTarget>

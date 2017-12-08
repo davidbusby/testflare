@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="2"
+  SkinType="Component"
+  Comment="HTML5 Toolbar skin"
+  ComponentType="TopicToolbar"
+  EnableResponsiveOutput="True">
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Toolbar">
+        <Properties>
+          <Property
+            Name="MarginBottom">33px</Property>
+          <Property
+            Name="MarginRight">-4px</Property>
+          <Property
+            Name="Float">right</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="ToolbarItem">
+        <Classes>
+          <StyleClass
+            Name="BackButton"
+            Custom="true">
+            <Properties>
+              <Property
+                Name="BackgroundRepeat">no-repeat</Property>
+              <Property
+                Name="BackgroundPosition">center center</Property>
+              <Property
+                Name="Click">window.history.back()</Property>
+              <Property
+                Name="Tooltip">Go back</Property>
+              <Property
+                Name="BackgroundImage">url('ad_back_333.png')</Property>
+              <Property
+                Name="Width">24px</Property>
+              <Property
+                Name="Height">24px</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="ShareButton"
+            Custom="true">
+            <Properties>
+              <Property
+                Name="BackgroundRepeat">no-repeat</Property>
+              <Property
+                Name="BackgroundPosition">center center</Property>
+              <Property
+                Name="Tooltip">Share this article via email</Property>
+              <Property
+                Name="Width">24px</Property>
+              <Property
+                Name="Height">24px</Property>
+              <Property
+                Name="BackgroundImage">url('Icon_Share_20x20.png')</Property>
+              <Property
+                Name="Click">window.location.href="mailto:?subject="+document.title+"&amp;body="+escape(window.location.href);</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="SelectSkin">
+            <Properties>
+              <Property
+                Name="BackgroundGradient">vertical #CBE6EF #CBE6EF</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="Print">
+            <Properties>
+              <Property
+                Name="BackgroundGradient">vertical transparent transparent</Property>
+              <Property
+                Name="BackgroundColor">transparent</Property>
+              <Property
+                Name="Width">24px</Property>
+              <Property
+                Name="Height">24px</Property>
+              <Property
+                Name="BackgroundImage">url('Icon_Print_20x20.png')</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+        <Properties>
+          <Property
+            Name="BorderTop">solid 0px #0087b3</Property>
+          <Property
+            Name="BorderRight">solid 0px #0087b3</Property>
+          <Property
+            Name="BorderBottom">solid 0px #0087b3</Property>
+          <Property
+            Name="BorderLeft">solid 0px #0087b3</Property>
+          <Property
+            Name="BackgroundGradient">vertical transparent transparent</Property>
+          <Property
+            Name="BackgroundColor">transparent</Property>
+        </Properties>
+      </Style>
+      <Medium
+        Name="Tablet">
+        <Style
+          Name="ToolbarItem">
+          <Classes>
+            <StyleClass
+              Name="BackButton">
+              <Properties>
+                <Property
+                  Name="BackgroundRepeat">no-repeat</Property>
+                <Property
+                  Name="BackgroundPosition">center center</Property>
+              </Properties>
+            </StyleClass>
+            <StyleClass
+              Name="ShareButton">
+              <Properties>
+                <Property
+                  Name="BackgroundRepeat">no-repeat</Property>
+                <Property
+                  Name="BackgroundPosition">center center</Property>
+              </Properties>
+            </StyleClass>
+          </Classes>
+        </Style>
+      </Medium>
+      <Medium
+        Name="Mobile">
+        <Style
+          Name="Toolbar">
+          <Properties>
+            <Property
+              Name="Display">none</Property>
+          </Properties>
+        </Style>
+        <Style
+          Name="ToolbarItem">
+          <Classes>
+            <StyleClass
+              Name="BackButton">
+              <Properties>
+                <Property
+                  Name="BackgroundRepeat">no-repeat</Property>
+                <Property
+                  Name="BackgroundPosition">center center</Property>
+              </Properties>
+            </StyleClass>
+            <StyleClass
+              Name="ShareButton">
+              <Properties>
+                <Property
+                  Name="BackgroundRepeat">no-repeat</Property>
+                <Property
+                  Name="BackgroundPosition">center center</Property>
+              </Properties>
+            </StyleClass>
+          </Classes>
+        </Style>
+      </Medium>
+    </Styles>
+    <Stylesheet></Stylesheet>
+    <Resources>
+      <Resource
+        Name="ad_print.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0gIgzMEGJOU//08EUpwFHpHFDAx8R0CYcao2nzRQkL3E09eV/SG7KD+LPsOpZVFgIdeIEsfSkoz8IoaV6854AIV4QEIuqcXJRZkFJZn5eQzCnIrKQHEukLhzfkFlUWZ6RgnDGv4zVkBRPrBoUWoiSKlCSWZuKoPpd35OkBNAMsH5aSXliUWpDLEF/0HKucGGZxYn5yQClRYxbD+wpR8ozAESDk8sysvMS2c4IP2sHea04PzSouRUhq//m1/DlDnn5+am5pUwfDszbT9QjA0kFpJZkpPKsOLdJXWgyEdPF8cQi96lkxb2HXIQaNufe22OVWMrwzIuIZZNTewPZF9IJxTGXpn7lPeB5AvlkEkOTKvYJh2e4zJXhmfvm21LdR96h705d2a/8e/1QoI5PpO6HlkGPrBOnCoecH9j9QRnsWD3A6u98prYN9j9O2HkqZ2/zdBTa/bjUIYSCfmU4l1MAqx1yo2pk5g2/N/bea7LeFYXw5qy9BK/nZcadY7f0963rTdd/3Gu+BzBuNojTuzPPp4OOWq0c/6Ls2xvm3Y5vDS6dpbhc6H83nl9V5bcnnT67Xv7gOcuIj++2NlztMsuZTyUeHzlys1H5Zynq14pTQgW6GD6n8meqneX0VkicIeOw1MRoOcZPF39XNY5JTQBAO023xEmAgAA</Resource>
+      <Resource
+        Name="ad_share.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0jwgzMEGJMNKY54DKc4Cj8hiBga+IyDMOFWbTxooyF7i6evK/pBdlJ9D6tcZ3VKwkGtEiWNpSUZ+EcPKdWc8QOaAhFxSi5OLMgtKMvPzGIQ5FZWB4lwgcef8gsqizPSMEoY1/GesgKJ8YNGi1ESQUoWSzNxUBtPv/JwgJ4BkgvPTSsoTi1IZYgv+g5Rzgw3PLE7OSQQqLWLYfmBLP1CYAyQcnliUl5mXznBA+lk7zGnB+aVFyakMX/83v4Ypc87PzU3NK2H4dmbafqAYG0gsJLMkJ5VhxbtL6gwMjLyeLo4hGhNbJ270OlwgcaT+f5BGbNAG59hbrybxOfY8kNjgtE2vtmVP4xfOqPsK3atLi4RFrcIEBKfzbfWYbrHlVRB30iXViRzzg5m1fPN3P3734LdfJ0fmDLaFMvPsH7gb3m3rjBLPiON58uunbMNap3lndn27WDPxw3mNONmMr8cffWnbojvXSY+7IVt6xUOdCdfOSjQs/pvr9pl1+j2e62Yrwrte5U9cNe/L01RBNaftG7s3B/9Lj1F6XH90f4uJscOy5KtCRQH3Dtjsnfy4Ov/p6ykdBrxOHxdLbF6i2bB5uXkhu/A3Lynf2sna+W3ytZe3ffkimxdvf+Sl7aY9hW/5vnoFzlTVfbjSWufixqyQrTatMWLXzX4wsq7MXpD298ghYFAxeLr6uaxzSmgCAJOLF89CAgAA</Resource>
+      <Resource
+        Name="ad_back.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0sJALMTBBiR38jzNBFKcBR6RxQwMfEdAmHGqNp80UJC9xNPXlf0huyi/lKnmy4T/YCHXiBLH0pKM/CKGlevOeACFeEBCLqnFyUWZBSWZ+XkMwpyKykBxLpC4c35BZVFmekYJwxr+M1ZAUT6waFFqIkipQklmbiqD6Xd+TpATQDLB+Wkl5YlFqQyxBf9ByrnBhmcWJ+ckApUWMWw/sKUfKMwBEg5PLMrLzEtnOCD9rB3mtOD80qLkVIav/5tfw5Q55+fmpuaVMHw7M20/UIwNJBaSWZKTyrDi3SV1BgZGK08XxxCL3qVX9nsfdhA58DE/KWlVgHbHD2bxi9uUvA7qHF0pKztn1eIImTnWO3/IW+y0Wrnbmd2R1VH97CUuUZctj1TKAiaUGS4RaO+6YVK+5Oxtvnu1FeXf72mue73L49DKsBv71nwUkH1sMD3JTulcaMqM4L3JW38cc9281cxNbeWT6R4v/v3MCuA48G9NYYn+ujPin5ujpvZOjn/DJOwsPMX8iPubA08maO79Y6ajw7J/vWZTU+shHxs/y+kOS/8deZe5XqDh9OnP7KoOT/ee+1m+PqB6hcpkmTOSEolTOtx69nNmFERvOWF368a8PRE5HWsD59YJmhicqMpiLF71/r+F6Q6rnYlLX1U49DqpnY2rkvDsZsytFVPdve3MzTXvLIsm/83uln3NrW4hJvdlpq9kxKMfW7V92E45/2AtbZJq7Tn5bEvFcX5uv756u+p3ccBwZfB09XNZ55TQBADl5X09bwIAAA==</Resource>
+      <Resource
+        Name="ad_back_1.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0iJALMzBBiQn9OhuBVKcBR6RxQwMfEdAmHGqNp80UJC9xNPXlf0huyi/okGqYbUHWMg1osSxtCQjv4hh5bozICEekJBLanFyUWZBSWZ+HoMwp6IyUJwLJO6cX1BZlJmeUcKwhv+MFVCUDyxalJoIUqpQkpmbymD6nZ8T5ASQTHB+Wkl5YlEqQ2zBf5BybrDhmcXJOYlApUUM2w9s6QcKc4CEwxOL8jLz0hkOSD9rhzktOL+0KDmV4ev/5tcwZc75ubmpeSUM385M2w8UYwOJhWSW5KQyrHh3SZ2BgSne08UxxKJ37ZT73pMTRY7bVz+3nr7knOdpeU3vzZJpS/MiL8+WvOkq4vpg6j/Gu63hZYIipQ9dyx3/McaxxLK4BobluWScCMuISrMQ3riS+3rJwsvX3759VHvf9LmZik14+3PL54e/y5yztIqclmoUYWJz/kZKi6jmsVkr1PmZpx7XWmEqabR0wW3OHsE/Ngf3Ppxvw3H8strT2V0viq9dLDzUMkNUo7Xyc0mL92UhaUlTlaCV26I+xqxerNQ5i6XnQaWNy+0z036pFjwr4NzeP714U8TJDj39j2VKDt/7S5WyQlxDeRfLmp1Z6fA/27x0/rUbDEWffWx21cxafe3L3q5zfZf/5vTtM5W88DDL4uiB1iIXBwaFL63Wi7l4Fs+cPnet5wYOebb9j/yZpNZ+tXljc4hXuaEn/cx5B4/V3B+qxV/2a9e+3HT98aUvq3MLqg6fWXrK5PaOVH0FcYV9XuvLA5n/Hdu+YR2LZNfOe3P2835bv9z67J2oc75bJyxsVfB24PvzKDmgV0P7iN6y5taM17X7eJ9llTzI2/5IZ3ZLpMKPdk3XhT1LemcrKDB9bt635hSDWarkhcnKK/gLOzQdZJMeGfaxyFilH4+dOlk048LLBoloTsMF4V52DpOfWuswNYrWCM0R/VxYuuWB35TcY3cfH5nqNXVZpXhA7em6HK7tHNUv7bb2pf5y2zIxdGHklDY3pjv3Q/5MC+JmDzy+7Fag03QGhcvvpY8LXwoSebHhsMtTvlsi5bWrT73hYv1i4dXAM7tp4wT18Fnl+zV7fXfcDm6o3nfaa/LhPfUPn/7Z3hsbO7vtllRcrE2X6t+tF3P03yd2/T1/9B/3Sw6l//uf+RcAEx+Dp6ufyzqnhCYA0g24sZQDAAA=</Resource>
+      <Resource
+        Name="ad_back_2.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0nxALMDBBiTVpvhZASnOAo/IYqD4ERBmnKrNJw0UZC/x9HVlf8guyq/BVu0ZOgMs5BpR4lhakpFfxLBy3RkPoBAPSMgltTi5KLOgJDM/j0GYU1EZKM4FEnfOL6gsykzPKGFYw38GZBEfWLQoNRGkVKEkMzeVwfQ7PyfICSCZ4Py0kvLEolSG2IL/IOXcYMMzi5NzEoFKixi2H9jSDxTmAAmHJxblZealMxyQftYOc1pwfmlRcirD1//Nr2HKnPNzc1PzShi+nZm2HyjGBhILySzJSWVY8e6SOlBkoaeLY4jGxOQf/iw/Sn/f+f+A9fm/+39aBZL//P//v57N5sH3ucU8717PM3zz//iBA6tXnfugGTG1EQQ6I3zfHAriSf8T8rDIwnRR9q4pCUcWHDvVEK+s6BthKrSY01l546wAk0mLOJfLdzIW9K7RcuOxbl4iITNTQqJuX+2xBdsfyBxee9/llkdXGs9yodWSq+U7L/YYF3BkHpNe9WKWr9ldN49Js9cyhJy4pqbmuDcM6FgGT1c/l3VOCU0Ay36XC9YBAAA=</Resource>
+      <Resource
+        Name="ad_share_333.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0hIgzMEGJB+U2/4AUpwFHpHFDAx8R0CYcao2nzRQkL3E09eV/SGHGIOE4qw9K5nAQq4RJY6lJRn5RQwr153xAArxgIRcUouTizILSjLz8xiEORWVgeJcIHHn/ILKosz0jBKGNfxnrICifGDRotREkFKFkszcVAbT7/ycICeAZILz00rKE4tSGWIL/oOUc4MNzyxOzkkEKi1i2H5gSz9QmAMkHJ5YlJeZl85wQPpZO8xpwfmlRcmpDF//N7+GKXPOz81NzSth+HZm2n6gGBtILCSzJCeVYcW7S+oMDIwvPV0cQzw694ZaeygHitiuO62zZIPkBn/R1ZlxCic0XJQuRmSI6rIoNh+VUIxYs/mont7uuREeXMKORkkGrUu4xI455cTc8NFabuS7RkeEOfGyivehu1nlz4UNjZ1t7u7+vq/43vM9v906Ogxc9kir7SxvjOOuinOsMet4kCPjFee+Ol1P8mORy/d0oUfVuzTVcsQXrvvxv9f2zYK210153a9as6/wJH9n2st3a67dxzTpYx+qze/0ntL8dllyivS3OfaCjQk8E4RtsqZ4t3UauukoBb9Ln5vnHyQyN+3IssVTrC692Jk9z2iGw/eZW5RnHuoRTE6c9FtgL8tmh+/TU13Nl0z97tlnkNQTaDFT+W2hwaP9Bje3lMkcf3Vw79uYnYWCr+PLFVorjn9P3ZEiG368rOiDEN/5yQJussXMFbfDFBUmfbitLaW1ZCfviql280rUGFiuhazQFNzD39DfrrF84t3ItgYto9nFM26GBNYWrXhwbRm/rLhelah/6Ir7IilaugfED1w67h/hJHnzD+s7g8Ybs5rWutpbHBYJv7slMPDj02K2q8tMDzv+qev7cqjeeneRoPykCXt1nDijjPd/XFzDvFj2zu2SEh75HddP2+xhlgv+rHRGSubIT80Z93ZvPpfk2v5qaazXEbVMo2kL7gbNXfPs05dUvqaF27vsjV8rGVq42goBkwGDp6ufyzqnhCYAbtSpLh4DAAA=</Resource>
+      <Resource
+        Name="ad_print_333.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0hIgzMEGJB+U2/4AUpwFHpHFDAx8R0CYcao2nzRQkL3E09eV/SGHGIO0fMGH51lgIdeIEsfSkoz8IoaV6854AIV4QEIuqcXJRZkFJZn5eQzCnIrKQHEukLhzfkFlUWZ6RgnDGv4zVkBRPrBoUWoiSKlCSWZuKoPpd35OkBNAMsH5aSXliUWpDLEF/0HKucGGZxYn5yQClRYxbD+wpR8ozAESDk8sysvMS2c4IP2sHea04PzSouRUhq//m1/DlDnn5+am5pUwfDszbT9QjA0kFpJZkpPKsOLdJXWgyHNPF8cQj87kP////69nk2JSi5LyE+eO2MAdnzQjYdKRDS0ZyUkSz+ZqJlw4rGT8pbnjmZjBJauZSko/36e3eXvPlpwl/jZ5x/9Gn8ssIpJzHmVJZi3+KlExU9GpQP5O/MwjArdqO4PYjQ2A4MXUdWkzxNedOHCAob95Ns/v6UFJO0yd3y4z5kk3u2oUAVQTE7Vr/kO1ELasg/5t/uc1DORlbX4f+SB86sjEix6s7pKz/vpIzNp4gickkJF5RzcDh0LMEp6/c858kNfe8WP//Rs/9m8s/P+/+4aowNq8BcqVnM6TOD9uZTIz+OJ9eeF8H0a3X1Nd1l/6ww30MoOnq5/LOqeEJgDBsAMKHAIAAA==</Resource>
+      <Resource
+        Name="ad_back_333.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0hIgzMEGJB+U2/4AUpwFHpHFDAx8R0CYcao2nzRQkL3E09eV/SGHGIOcwFwLvn1gIdeIEsfSkoz8IoaV6854AIV4QEIuqcXJRZkFJZn5eQzCnIrKQHEukLhzfkFlUWZ6RgnDGv4zVkBRPrBoUWoiSKlCSWZuKoPpd35OkBNAMsH5aSXliUWpDLEF/0HKucGGZxYn5yQClRYxbD+wpR8ozAESDk8sysvMS2c4IP2sHea04PzSouRUhq//m1/DlDnn5+am5pUwfDszbT9QjA0kFpJZkpPKsOLdJXUGBkYeTxfHEI/Os1P3cjUGShz/b1fF/lRJJ0dM8m7zF79Ji6ZIxDQ7RvLasfksKzecpXMqSVFJ70A1I9tTl/5OjeM/P01Lt/l7/n35PKvnNnZKShURdfoP/+snWLOf66rln5gWu41Za4nQFI/UlXv3FBRHyW64K/C0iP21ccNnxsXTmpmXC6YelJZpENVddP2cYtpfhw+C99YryD16P1HsxYGlrLsKNBs5YzQMWrlZeH7ffMLJ3pCitpZFnEPniLdzyeeJz0/tyVxsVlavyiDAoRxZO9XgjHSW0Eddoykn9jIzd/7xvjZlxV9XKaGv9780H7n75uE9i8q7lQ7XhXWjzG5+1ZRd/2dG/4mEF/Z+sg/cm24VMP4InMf/1zp0rdnF+K29S4EhxeDp6ueyzimhCQCX7kj7QQIAAA==</Resource>
+      <Resource
+        Name="Icon_Share_20x20.png">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</Resource>
+      <Resource
+        Name="Icon_Print_20x20.png">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</Resource>
+    </Resources>
+  </Stylesheet>
+  <TopicToolbar
+    EnableCustomLayout="true"
+    Buttons="BackButton|Print|ShareButton">
+    <Script></Script>
+  </TopicToolbar>
+  <Strings>
+    <Stylesheet
+      lang="en-us">
+      <Stylesheet>
+        <Styles>
+          <Style
+            Name="Toolbar">
+            <Properties>
+              <Property
+                Name="MarginBottom">33px</Property>
+              <Property
+                Name="MarginRight">-4px</Property>
+              <Property
+                Name="Float">right</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="ToolbarItem">
+            <Classes>
+              <StyleClass
+                Name="BackButton"
+                Custom="true">
+                <Properties>
+                  <Property
+                    Name="BackgroundRepeat">no-repeat</Property>
+                  <Property
+                    Name="BackgroundPosition">center center</Property>
+                  <Property
+                    Name="Click">window.history.back()</Property>
+                  <Property
+                    Name="Tooltip">Go back</Property>
+                  <Property
+                    Name="BackgroundImage">url('ad_back_2.png')</Property>
+                </Properties>
+              </StyleClass>
+              <StyleClass
+                Name="ShareButton"
+                Custom="true">
+                <Properties>
+                  <Property
+                    Name="BackgroundRepeat">no-repeat</Property>
+                  <Property
+                    Name="BackgroundPosition">center center</Property>
+                  <Property
+                    Name="BackgroundImage">url('ad_share.png')</Property>
+                  <Property
+                    Name="Tooltip">Share this article via email</Property>
+                  <Property
+                    Name="Click">window.location.href="mailto:?subject="+document.title+"&amp;body="+escape(window.location.href);</Property>
+                </Properties>
+              </StyleClass>
+              <StyleClass
+                Name="SelectSkin">
+                <Properties>
+                  <Property
+                    Name="BackgroundGradient">vertical #CBE6EF #CBE6EF</Property>
+                </Properties>
+              </StyleClass>
+              <StyleClass
+                Name="Print">
+                <Properties>
+                  <Property
+                    Name="BackgroundImage">url('ad_print.png')</Property>
+                  <Property
+                    Name="BackgroundGradient">vertical transparent transparent</Property>
+                  <Property
+                    Name="BackgroundColor">transparent</Property>
+                </Properties>
+              </StyleClass>
+            </Classes>
+            <Properties>
+              <Property
+                Name="BorderTop">solid 0px #0087b3</Property>
+              <Property
+                Name="BorderRight">solid 0px #0087b3</Property>
+              <Property
+                Name="BorderBottom">solid 0px #0087b3</Property>
+              <Property
+                Name="BorderLeft">solid 0px #0087b3</Property>
+              <Property
+                Name="BackgroundGradient">vertical transparent transparent</Property>
+              <Property
+                Name="BackgroundColor">transparent</Property>
+            </Properties>
+          </Style>
+          <Medium
+            Name="Tablet">
+            <Style
+              Name="ToolbarItem">
+              <Classes>
+                <StyleClass
+                  Name="BackButton">
+                  <Properties>
+                    <Property
+                      Name="BackgroundRepeat">no-repeat</Property>
+                    <Property
+                      Name="BackgroundPosition">center center</Property>
+                  </Properties>
+                </StyleClass>
+                <StyleClass
+                  Name="ShareButton">
+                  <Properties>
+                    <Property
+                      Name="BackgroundRepeat">no-repeat</Property>
+                    <Property
+                      Name="BackgroundPosition">center center</Property>
+                  </Properties>
+                </StyleClass>
+              </Classes>
+            </Style>
+          </Medium>
+          <Medium
+            Name="Mobile">
+            <Style
+              Name="Toolbar">
+              <Properties>
+                <Property
+                  Name="Display">none</Property>
+              </Properties>
+            </Style>
+            <Style
+              Name="ToolbarItem">
+              <Classes>
+                <StyleClass
+                  Name="BackButton">
+                  <Properties>
+                    <Property
+                      Name="BackgroundRepeat">no-repeat</Property>
+                    <Property
+                      Name="BackgroundPosition">center center</Property>
+                  </Properties>
+                </StyleClass>
+                <StyleClass
+                  Name="ShareButton">
+                  <Properties>
+                    <Property
+                      Name="BackgroundRepeat">no-repeat</Property>
+                    <Property
+                      Name="BackgroundPosition">center center</Property>
+                  </Properties>
+                </StyleClass>
+              </Classes>
+            </Style>
+          </Medium>
+        </Styles>
+        <Stylesheet></Stylesheet>
+        <Resources>
+          <Resource
+            Name="ad_print.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0gIgzMEGJOU//08EUpwFHpHFDAx8R0CYcao2nzRQkL3E09eV/SG7KD+LPsOpZVFgIdeIEsfSkoz8IoaV6854AIV4QEIuqcXJRZkFJZn5eQzCnIrKQHEukLhzfkFlUWZ6RgnDGv4zVkBRPrBoUWoiSKlCSWZuKoPpd35OkBNAMsH5aSXliUWpDLEF/0HKucGGZxYn5yQClRYxbD+wpR8ozAESDk8sysvMS2c4IP2sHea04PzSouRUhq//m1/DlDnn5+am5pUwfDszbT9QjA0kFpJZkpPKsOLdJXWgyEdPF8cQi96lkxb2HXIQaNufe22OVWMrwzIuIZZNTewPZF9IJxTGXpn7lPeB5AvlkEkOTKvYJh2e4zJXhmfvm21LdR96h705d2a/8e/1QoI5PpO6HlkGPrBOnCoecH9j9QRnsWD3A6u98prYN9j9O2HkqZ2/zdBTa/bjUIYSCfmU4l1MAqx1yo2pk5g2/N/bea7LeFYXw5qy9BK/nZcadY7f0963rTdd/3Gu+BzBuNojTuzPPp4OOWq0c/6Ls2xvm3Y5vDS6dpbhc6H83nl9V5bcnnT67Xv7gOcuIj++2NlztMsuZTyUeHzlys1H5Zynq14pTQgW6GD6n8meqneX0VkicIeOw1MRoOcZPF39XNY5JTQBAO023xEmAgAA</Resource>
+          <Resource
+            Name="ad_share.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0jwgzMEGJMNKY54DKc4Cj8hiBga+IyDMOFWbTxooyF7i6evK/pBdlJ9D6tcZ3VKwkGtEiWNpSUZ+EcPKdWc8QOaAhFxSi5OLMgtKMvPzGIQ5FZWB4lwgcef8gsqizPSMEoY1/GesgKJ8YNGi1ESQUoWSzNxUBtPv/JwgJ4BkgvPTSsoTi1IZYgv+g5Rzgw3PLE7OSQQqLWLYfmBLP1CYAyQcnliUl5mXznBA+lk7zGnB+aVFyakMX/83v4Ypc87PzU3NK2H4dmbafqAYG0gsJLMkJ5VhxbtL6gwMjLyeLo4hGhNbJ270OlwgcaT+f5BGbNAG59hbrybxOfY8kNjgtE2vtmVP4xfOqPsK3atLi4RFrcIEBKfzbfWYbrHlVRB30iXViRzzg5m1fPN3P3734LdfJ0fmDLaFMvPsH7gb3m3rjBLPiON58uunbMNap3lndn27WDPxw3mNONmMr8cffWnbojvXSY+7IVt6xUOdCdfOSjQs/pvr9pl1+j2e62Yrwrte5U9cNe/L01RBNaftG7s3B/9Lj1F6XH90f4uJscOy5KtCRQH3Dtjsnfy4Ov/p6ykdBrxOHxdLbF6i2bB5uXkhu/A3Lynf2sna+W3ytZe3ffkimxdvf+Sl7aY9hW/5vnoFzlTVfbjSWufixqyQrTatMWLXzX4wsq7MXpD298ghYFAxeLr6uaxzSmgCAJOLF89CAgAA</Resource>
+          <Resource
+            Name="ad_back.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0sJALMTBBiR38jzNBFKcBR6RxQwMfEdAmHGqNp80UJC9xNPXlf0huyi/lKnmy4T/YCHXiBLH0pKM/CKGlevOeACFeEBCLqnFyUWZBSWZ+XkMwpyKykBxLpC4c35BZVFmekYJwxr+M1ZAUT6waFFqIkipQklmbiqD6Xd+TpATQDLB+Wkl5YlFqQyxBf9ByrnBhmcWJ+ckApUWMWw/sKUfKMwBEg5PLMrLzEtnOCD9rB3mtOD80qLkVIav/5tfw5Q55+fmpuaVMHw7M20/UIwNJBaSWZKTyrDi3SV1BgZGK08XxxCL3qVX9nsfdhA58DE/KWlVgHbHD2bxi9uUvA7qHF0pKztn1eIImTnWO3/IW+y0Wrnbmd2R1VH97CUuUZctj1TKAiaUGS4RaO+6YVK+5Oxtvnu1FeXf72mue73L49DKsBv71nwUkH1sMD3JTulcaMqM4L3JW38cc9281cxNbeWT6R4v/v3MCuA48G9NYYn+ujPin5ujpvZOjn/DJOwsPMX8iPubA08maO79Y6ajw7J/vWZTU+shHxs/y+kOS/8deZe5XqDh9OnP7KoOT/ee+1m+PqB6hcpkmTOSEolTOtx69nNmFERvOWF368a8PRE5HWsD59YJmhicqMpiLF71/r+F6Q6rnYlLX1U49DqpnY2rkvDsZsytFVPdve3MzTXvLIsm/83uln3NrW4hJvdlpq9kxKMfW7V92E45/2AtbZJq7Tn5bEvFcX5uv756u+p3ccBwZfB09XNZ55TQBADl5X09bwIAAA==</Resource>
+          <Resource
+            Name="ad_back_1.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0iJALMzBBiQn9OhuBVKcBR6RxQwMfEdAmHGqNp80UJC9xNPXlf0huyi/okGqYbUHWMg1osSxtCQjv4hh5bozICEekJBLanFyUWZBSWZ+HoMwp6IyUJwLJO6cX1BZlJmeUcKwhv+MFVCUDyxalJoIUqpQkpmbymD6nZ8T5ASQTHB+Wkl5YlEqQ2zBf5BybrDhmcXJOYlApUUM2w9s6QcKc4CEwxOL8jLz0hkOSD9rhzktOL+0KDmV4ev/5tcwZc75ubmpeSUM385M2w8UYwOJhWSW5KQyrHh3SZ2BgSne08UxxKJ37ZT73pMTRY7bVz+3nr7knOdpeU3vzZJpS/MiL8+WvOkq4vpg6j/Gu63hZYIipQ9dyx3/McaxxLK4BobluWScCMuISrMQ3riS+3rJwsvX3759VHvf9LmZik14+3PL54e/y5yztIqclmoUYWJz/kZKi6jmsVkr1PmZpx7XWmEqabR0wW3OHsE/Ngf3Ppxvw3H8strT2V0viq9dLDzUMkNUo7Xyc0mL92UhaUlTlaCV26I+xqxerNQ5i6XnQaWNy+0z036pFjwr4NzeP714U8TJDj39j2VKDt/7S5WyQlxDeRfLmp1Z6fA/27x0/rUbDEWffWx21cxafe3L3q5zfZf/5vTtM5W88DDL4uiB1iIXBwaFL63Wi7l4Fs+cPnet5wYOebb9j/yZpNZ+tXljc4hXuaEn/cx5B4/V3B+qxV/2a9e+3HT98aUvq3MLqg6fWXrK5PaOVH0FcYV9XuvLA5n/Hdu+YR2LZNfOe3P2835bv9z67J2oc75bJyxsVfB24PvzKDmgV0P7iN6y5taM17X7eJ9llTzI2/5IZ3ZLpMKPdk3XhT1LemcrKDB9bt635hSDWarkhcnKK/gLOzQdZJMeGfaxyFilH4+dOlk048LLBoloTsMF4V52DpOfWuswNYrWCM0R/VxYuuWB35TcY3cfH5nqNXVZpXhA7em6HK7tHNUv7bb2pf5y2zIxdGHklDY3pjv3Q/5MC+JmDzy+7Fag03QGhcvvpY8LXwoSebHhsMtTvlsi5bWrT73hYv1i4dXAM7tp4wT18Fnl+zV7fXfcDm6o3nfaa/LhPfUPn/7Z3hsbO7vtllRcrE2X6t+tF3P03yd2/T1/9B/3Sw6l//uf+RcAEx+Dp6ufyzqnhCYA0g24sZQDAAA=</Resource>
+          <Resource
+            Name="ad_back_2.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0nxALMDBBiTVpvhZASnOAo/IYqD4ERBmnKrNJw0UZC/x9HVlf8guyq/BVu0ZOgMs5BpR4lhakpFfxLBy3RkPoBAPSMgltTi5KLOgJDM/j0GYU1EZKM4FEnfOL6gsykzPKGFYw38GZBEfWLQoNRGkVKEkMzeVwfQ7PyfICSCZ4Py0kvLEolSG2IL/IOXcYMMzi5NzEoFKixi2H9jSDxTmAAmHJxblZealMxyQftYOc1pwfmlRcirD1//Nr2HKnPNzc1PzShi+nZm2HyjGBhILySzJSWVY8e6SOlBkoaeLY4jGxOQf/iw/Sn/f+f+A9fm/+39aBZL//P//v57N5sH3ucU8717PM3zz//iBA6tXnfugGTG1EQQ6I3zfHAriSf8T8rDIwnRR9q4pCUcWHDvVEK+s6BthKrSY01l546wAk0mLOJfLdzIW9K7RcuOxbl4iITNTQqJuX+2xBdsfyBxee9/llkdXGs9yodWSq+U7L/YYF3BkHpNe9WKWr9ldN49Js9cyhJy4pqbmuDcM6FgGT1c/l3VOCU0Ay36XC9YBAAA=</Resource>
+        </Resources>
+      </Stylesheet>
+    </Stylesheet>
+  </Strings>
+</CatapultSkin>
